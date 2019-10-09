@@ -109,3 +109,113 @@ ul.header-menu-list > li:hover {
 	height: 255px;
 	margin-bottom: 10px;
 }
+
+footer {
+	height: 150px;
+	background: #A9F16C;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer > h4 {
+	margin: 0;
+}
+
+h4.last-matches {
+	text-align: center;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.match-item {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin: 30px 0;
+	border-right: 1px solid #ccc;
+}
+
+.match-item:last-child {
+	border-right: none;
+}
+
+.match-team-score {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 36px;
+	vertical-align: middle;
+}
+
+.match-item-body {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.match-team-logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+}
+
+.match-item-report {
+	font-weight: 700;
+	color: black;
+	text-decoration: underline;
+}
+
+.match-team-logo > img {
+	width: 100%;
+}
+
+.match-item-body > p {
+	margin: 0;
+	line-height: 22px;
+}
+
+.match-item-footer {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.match-item-header {
+	text-align: center;
+}
+
+.hr1 {
+	margin: 30px 0;
+	height: 1px;
+	background: #999;
+	width: 100%;
+	padding: 0;
+}
+
+.index-contents1 {
+
+}
+
+.index-contents1-1 {
+	width: 45%;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.index-contents1-2 {
+	width: 55%;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content-title {
+	margin: 2px 0;
+}
+
+h3.content-title {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+h4.content-title {
+	font-size: 24px;
+}
