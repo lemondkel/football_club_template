@@ -7,8 +7,14 @@ module:testrunner
 # module:jobs
 
 
-GET     /                                       App.Index
-GET     /matches                                       Matches.Index
+GET     /										App.Index
+GET     /matches								Matches.Index
+GET     /tickets								Tickets.Index
+GET     /avtv									AVTV.Index
+GET     /club									Club.Index
+GET     /pride									Pride.Index
+GET     /shop									Shop.Index
+GET		/avtv/messageTest						AVTV.MessageTest
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
