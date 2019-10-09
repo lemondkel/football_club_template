@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>{{.title}}</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap-3.3.6.min.css">
-    <link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
-    <script src="/public/js/jquery-2.2.4.min.js"></script>
-    <script src="/public/js/bootstrap-3.3.6.min.js"></script>
-    {{range .moreStyles}}
-      <link rel="stylesheet" type="text/css" href="/public/{{.}}">
-    {{end}}
-    {{range .moreScripts}}
-      <script src="/public/{{.}}" type="text/javascript" charset="utf-8"></script>
-    {{end}}
-  </head>
-  <body>
+<head>
+	<title>{{.title}}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/public/css/bootstrap-3.3.6.min.css">
+	<link rel="stylesheet" type="text/css" href="/public/css/common.css">
+	<link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
+	<script src="/public/js/jquery-2.2.4.min.js"></script>
+	<script src="/public/js/bootstrap-3.3.6.min.js"></script>
+	{{range .moreStyles}}
+	<link rel="stylesheet" type="text/css" href="/public/{{.}}">
+	{{end}}
+	{{range .moreScripts}}
+	<script src="/public/{{.}}" type="text/javascript" charset="utf-8"></script>
+	{{end}}
+</head>
+<body>
+
+
+<header>
+	<div class="container">
+		<div class="row">
+			<a class="site-logo" href="/">
+				<img src="https://d3ix52z2istd7h.cloudfront.net/-/media/AstonVilla/Club-Crests/AVFC_Logo_Crop66x89.ashx?mw=100&amp;hash=9B6CE8462352E9E97932C86349A94F98A7BCA46B"
+					 alt="Aston Villa Crest">
+				Aston Villa FC - Home
+			</a>
+			<ul class="header-menu-list">
+				<li>Matches</li>
+				<li>Teams</li>
+				<li>Tickets</li>
+				<li>AVTV</li>
+				<li>Club</li>
+				<li>The Pride</li>
+				<li>Shop</li>
+			</ul>
+		</div>
+	</div>
+</header>
