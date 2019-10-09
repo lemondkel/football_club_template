@@ -14,6 +14,6 @@ func (c AVTV) Index() revel.Result {
 }
 
 func (c AVTV) MessageTest() revel.Result {
-	m := vo.AjaxResult{Name: "Alice", Body: "Hello", Time: 1294706395881547000}
+	m := vo.AjaxResult{Name: "김규빈", Body: "여소받으러 갔네", Time: 1294706395881547000}
 	return c.RenderJSON(m)
 }
