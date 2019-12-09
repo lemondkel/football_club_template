@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fct/app/vo"
 	"github.com/revel/revel"
 )
 
@@ -9,5 +10,6 @@ type App struct {
 }
 
 func (c App) Index() revel.Result {
-	return c.Render()
+	pageInfo := vo.PageInfo{Title: "asd"}
+	return c.Render(pageInfo)
 }
